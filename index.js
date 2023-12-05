@@ -113,8 +113,8 @@ window.onload = () => {
             avisosView.textContent = 'Mesma Carta!';
             //combinação feita    
         } else if (cartasEscolhidas[0] === cartasEscolhidas[1]) {
-            cartas[escolhaUmId].setAttribute('src', 'images-2/check.png');
-            cartas[escolhaDoisId].setAttribute('src', 'images-2/check.png');
+            cartas[escolhaUmId].setAttribute('src', 'images-2/Check.png');
+            cartas[escolhaDoisId].setAttribute('src', 'images-2/Check.png');
             cartas[escolhaUmId].removeEventListener('click', viraCarta);
             cartas[escolhaDoisId].removeEventListener('click', viraCarta);
             combinacaoFeita.push(cartasEscolhidas);
